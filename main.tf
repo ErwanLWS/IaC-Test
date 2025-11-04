@@ -21,7 +21,7 @@ resource "azurerm_storage_container" "containerlogo" {
 }
 
 resource "azurerm_storage_account" "sg2" {
-    name = "storageaccountlogs-iac"
+    name = "storageaccountlogsiac"
     resource_group_name = var.rg_name
     location = var.location
     account_tier = "Standard"
